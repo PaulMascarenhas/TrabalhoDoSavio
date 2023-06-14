@@ -1,17 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
-.dados{
-    background-color: aqua;
-    line-height: 54px;
+body{
+    flex-wrap: wrap;
+}
 
+.logo{
+    display: flex;
+    
+}
+
+.dados{ 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 
 }
+
+.dados h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color:rgba(60, 104, 216, 1);
+    border-radius: 10px;
+    width: 400px;
+    padding: 5px;
+    
+  }
+  
+  .botao img {
+    margin-right: 5px;
+  }
+  
+  .botao span {
+    font-weight:bold;
+    color: #ffffff;
+    font-size: 25px;
+  }
+
+  .usuario input{
+    width: 400px;
+    padding: 5px;
+    border-color: rgba(60, 104, 216, 1);
+    border-radius: 5px;
+    border-width: 4px;
+  }
+
+.senha input{
+    width: 400px;
+    padding: 5px;
+    border-color: rgba(60, 104, 216, 1);
+    border-radius: 5px;
+    border-width: 4px;
+}
+
+.registre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registre a{
+    color: black;
+}
+
+.botao:hover{
+    background-color: rgb(13, 13, 122);
+
+}
+
+
+
+
 
 
 

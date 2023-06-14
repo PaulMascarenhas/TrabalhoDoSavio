@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(60, 104, 216, 1);
+    height: 12vh;
+}
+
+.registro{
+    font-family:'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 5%;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color:rgba(60, 104, 216, 1);
+    border-radius: 10px;
+    width: 40vw;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nome h3{
+    font-size:25px;
+}
+
+.nome input{
+    width: 50vw;
+    height: 4.5vh;
+    border-color: rgba(60, 104, 216, 1);
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.cpf h3{
+    font-size: 25px;
+}
+
+.cpf input{
+    width: 50vw;
+    height:4.5vh;
+    border-color: rgba(60, 104, 216, 1);
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.telefone h3{
+    font-size: 25px;
+}
+
+.telefone input{
+    width: 50vw;
+    height: 4.5vh;
+    border-color: rgba(60, 104, 216, 1);
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.genero h3{
+    font-size: 25px;
+}
+
+.genero{
+    gap: 10px;
+    width: 50vw;
+    
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.botao:hover{
+    background-color: rgb(13, 13, 122);
+}
+
+
+
+
+ 
+
+
+
+
+
+
+    
+    
+
+    
+
