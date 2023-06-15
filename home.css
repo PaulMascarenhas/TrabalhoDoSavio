@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 .home{
     font-family: 'Roboto', sans-serif;
 }
@@ -20,9 +22,9 @@
 .links{
     display: flex;
     flex-direction:row;
-    gap:4vw;
+    gap:80px;
     list-style: none;
-    margin: 3.5vh;
+    margin: 40px;
     font-size: 25px;     
 }
 
@@ -35,11 +37,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .intro img{
-    width: 40vw;
-    margin: 5vh;
+    width: 700px;
+    margin: 50px;
 }
 
 .txt1{
@@ -49,12 +52,86 @@
     font-size: 25px;
 }
 
-.txt1 h1{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    width: 100vw;
-    line-height: 10vh;
-    
+.txt1 p{
+    font-size: 45px;
 }
+
+.txt1 h1{
+    font-weight: bold;
+}
+
+.trat{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 25px;
+}
+
+.trat p{
+    font-size: 40px;
+}
+
+.trat ul{
+    font-size: 35px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    gap: 30px;
+}
+
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.coracao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.olho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sorriso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aviao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre p{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+    width: 200px;
+}
+
+.conheca{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+    
+
 
